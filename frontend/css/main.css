@@ -1,0 +1,275 @@
+
+/* GENERAL */
+
+[data-role='page'].ui-body-c {
+	background-color: #ffffff;
+	background-image: none;
+}
+
+.ui-header h1.ui-title {
+	font-size: 1.2em;
+	margin: 0.5em;
+}
+
+.ui-content {
+	padding: 0.5em !important;
+}
+
+.ui-btn {
+	box-shadow: none;
+	outline:none;
+	font-size: 0.8em;
+}
+
+.logoutBar {
+	padding: 0.3em;
+	background-color: #EBEFF5;
+	font-weight: normal;
+	color: #555555;
+	text-shadow: 0 1px 1px #D7D7D7;
+}
+
+.userName {
+	font-weight: bold;
+}
+
+.footer {
+	border: 0;
+}
+
+.logoutButton {
+	float: right;
+	height: 1.8em;
+}
+
+.logoutButton .ui-btn-inner {
+	padding: 0.2em 0.4em !important;
+} 
+
+.userInfo {
+	font-size: 0.9em;
+	line-height: 1.8em;
+	vertical-align: middle;
+}
+
+/* AKTUELLES */
+
+#upcomingEvents ul {
+	margin: 0;
+}
+
+#upcomingEvents ul li a {
+	font-size: 1.1em !important;
+	font-weight: bold;
+	white-space: normal;
+}
+
+#upcomingEvents ul li div {
+	font-weight: normal;
+	display: block;
+}
+
+.comment {
+	display: block;
+	color: darkorange;
+}
+
+
+/* STUNDENPLAN */
+
+#dayNavigation {
+	top: 0;
+}
+
+.fc-event {
+	border: 0;
+}
+
+.fc-event-inner {
+	border: 0;
+}
+
+.fc-event-skin {
+	background-color: #4988B2;
+}
+
+.fc-event-head {
+	padding: 0.1em 0.2em;
+	display: none;
+	text-shadow: none;
+}
+
+.fc-event-content {
+	color: #ffffff;
+	text-shadow: none;
+	border: 0;
+	padding: 0.2em;
+}
+
+.fc-day-content {
+	min-height: 25px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.fc-view {
+	background-color: #d7d7d7;
+}
+
+.fc-agenda-gutter {
+	background-color: #d7d7d7;
+}
+
+.fc-widget-content {
+	background-color: #EBEFF5;
+}
+
+.fc-agenda-divider {
+	border: 0;
+}
+
+.fc-widget-header .fc-agenda-divider-inner {
+	height: 1px;
+	background: none repeat scroll 0 0 #CCCCCC;
+}
+
+.allDayEvent {
+	height:25px;
+	margin: 0;
+}
+
+.allDayEvent div {
+	line-height: 25px;
+	vertical-align: middle;
+	margin: 0;
+}
+
+
+/* MENSA */
+
+#mensaList {
+	margin: 0;
+}
+
+#mensaList div div, 
+#mensaList div h1 {
+	margin: 0;
+	font-size: 1em !important;
+}
+
+#mensaList div h1 .ui-btn-inner {
+	padding-right: 0.5em;
+}
+
+
+.mensaName {
+	float: left;
+	line-height: 2em;
+}
+
+
+.menuName {
+	font-weight: bold;
+	font-size: 1em !important;
+	margin-top: 0.5em !important;
+}
+
+.meal {
+	font-size: 1em !important;
+	margin-top: 0.5em !important;
+}
+
+.goToMensaButton {
+	float: right;
+}
+.goToMensaButton .ui-btn-inner {
+	font-size: 1.3em !important;
+	padding: 0 0.4em 0.5em 0.4em !important;
+}
+
+.goToMensaButton .ui-btn-text {
+	padding: 0 !important;
+}
+
+
+/* KARTE */
+
+#mapOptions { 
+	height: 5em;
+	text-align: center;
+}
+
+#mapOptions .ui-grid-a {
+	margin-bottom: 0.5em;
+}
+
+#buildingSelect-button,
+#mensaSelect-button {
+	max-width: 11em !important;
+}
+
+#mapOptions .ui-select {
+	display: inline;
+}
+
+#removeDirectionsButton {
+	margin-left: 0.5em 0 0 0.5em;	
+}
+
+#mapContainer {
+	border: 1px solid #d7d7d7;
+}
+
+
+/* TERMINE */
+
+#termine ul {
+	margin: 0;
+}
+
+#termine ul div {
+	float: right;
+}
+
+
+/* POPUP */
+
+.ui-overlay-a {
+	background-color: #d7d7d7 !important;	
+}
+
+#lecturePopupHeader a {
+	display: none;
+}
+
+#lecturePopupFooter {
+	border: 0;
+}
+
+#lecturePopupFooter a {
+	padding: 0.2em auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#lecturePopupBackButton {
+	width: 50%;
+	margin-left: 25%;
+}
+
+#lecturePopupBackButton span.ui-btn-inner {
+	padding-left: 11px;
+}
+
+.lectureDetailsCaption {
+	font-weight: bold;
+}
+
+#commentInput {
+	background-color: #ffffff;
+}
+
+#commentSubmitButton {
+	margin-left: 1em;
+	margin-right: 1em;
+}
